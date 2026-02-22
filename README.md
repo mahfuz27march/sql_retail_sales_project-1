@@ -1,4 +1,5 @@
 # sql_retail_sales_project-1
+```
 create table retail_sales(
 
 	transactions_id int primary key,
@@ -148,5 +149,6 @@ select
 	shift,
 	count(*) as total_orders
 from hourly_sale
+```
 group by shift;
 -------------------------------------
